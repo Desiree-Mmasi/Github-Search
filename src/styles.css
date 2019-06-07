@@ -1,5 +1,9 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 @import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+.jumbotron{
+    font-family: 'Poiret One', cursive;
+    color: black;
+}
 body{
 margin: 0;
 padding: 0;
