@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poiret One', cursive;
+font-size:20px;
+color: white;
+text-align: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url(https://wallpapercave.com/wp/wp3082259.png);
+};
