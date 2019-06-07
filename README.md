@@ -1,31 +1,29 @@
-<<<<<<< HEAD
-# GithubSearch
+# Github Search
+# Desiree  Mmasi
+#### This is an application that enables users key in their Github username or their desired repository and immediately get their desired information
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
+## Setup/Installation Requirements
+1. git must be installed in your computer, if not use the following command in your terminal ($ sudo apt install git-all)
+2. $ git clone https://github.com/Desiree-Mmasi/Github-Search
+3. $ cd Github-Search
+4. $ atom . / code .
 
-## Development server
+## BDD
+| Behaviour                        |  Input                  | Output               |
+|----------------------------------|-------------------------|----------------------|
+| The user inputs their github     | The github username     | The user's github    |
+| username or their desired        | or repository           | repository           |
+| repository                       | then clicks search      | is displayed         |
+|                                  |                         |                      |
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Known Bugs
+The Github-Search application has no bugs so far but if you detect any feel free to contact me through the accounts given.
+## Technologies Used
+1. Angular Cli
+2. Css 
+3. Html
+4. Bootstrap
+## Support and contact details
+You can reach out to me on mmasidesiree9@gmail.com or Slack Desiree Mmasi. My Github account is also reachable : Desiree-Mmasi
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
-# Github-Search
->>>>>>> bc64c52f24cbc213a47ecd489096e4fe29e200f7
+Copyright (c) {2019} **{Dessy}**
