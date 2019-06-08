@@ -1,6 +1,6 @@
 # Github Search
 # Desiree  Mmasi
-#### This is an application that enables users key in their Github username or their desired repository and immediately get their desired information
+#### This is an application that enables users key in their Github username or their desired repository and immediately get their desired information.
 
 ## Setup/Installation Requirements
 1. git must be installed in your computer, if not use the following command in your terminal ($ sudo apt install git-all)
