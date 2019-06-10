@@ -5,6 +5,7 @@ export class Repository {
     owner: User;
     lang:string;
     link:string;
+    
     constructor(private object:JSON){
         this.name = this.object['name'];
         this.description = this.object['description'];
