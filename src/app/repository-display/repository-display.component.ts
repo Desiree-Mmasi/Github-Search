@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Repository } from '../repository';
 
 @Component({
   selector: 'app-repository-display',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RepositoryDisplayComponent implements OnInit {
 
+  repository: Repository;
+  @Input() repo:JSON;
   constructor() { }
 
   ngOnInit() {
+    this.repository = new Repository(this.repo);
   }
-
 }
