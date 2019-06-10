@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {GitsearchService} from '../Gitsearch/gitsearch.service'
 
 @Component({
   selector: 'app-repository-searchbar',
@@ -7,8 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RepositorySearchbarComponent implements OnInit {
 
-  constructor() { }
+  searchString = '';
+results = [];
 
+  constructor( private searchservice: GitsearchService ) { }
+
+  search(){
+    this.searchservice.getrepos(this.searchString).then((data :JSON)=>{
+      this.results=data['items'];
+    })
+  }
   ngOnInit() {
   }
 
