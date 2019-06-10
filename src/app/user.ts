@@ -9,7 +9,7 @@ export class User {
         this.login = object['login'];
         this.image = object['avatar_url'];
         this.reposurl = object['repos_url'];
-        this.score = object['score']
+        this.score = object['score'];
     }
 
 }
