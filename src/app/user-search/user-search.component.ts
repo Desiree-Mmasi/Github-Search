@@ -16,8 +16,7 @@ export class UserSearchComponent implements OnInit {
   searchuser(){
     this.searchservice.getusers(this.searchstring).then((data :JSON)=>{
       this.results=data['items'];
-      console.log(data)
-    })
+    });
   }
   
   ngOnInit() {
