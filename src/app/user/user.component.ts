@@ -14,16 +14,6 @@ export class UserComponent implements OnInit {
 
   constructor( private route: ActivatedRoute, private gitsearch: GitsearchService ) { }
 
-  showdesc(item){
-    let desc=document.getElementById(item);
-    console.log(desc);
-    let cur=desc.style["display"];
-    if(cur=="block"){
-      desc.style["display"]="none"
-    }else{
-      desc.style["display"]="block"
-    }
-  }
 
   enumerate(data){
     this.user= new User(data);
@@ -40,7 +30,6 @@ export class UserComponent implements OnInit {
       (data: JSON)=>{this.enumerate(data);}
     );
   }
-
   ngOnInit() {
     this.route.params.subscribe(params=>{
       this.login = params['uname'];
