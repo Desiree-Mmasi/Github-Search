@@ -13,5 +13,4 @@ export class Repository {
         this.lang = this.object['language'];
         this.link = this.object['html_url'];
     }
-
 }
