@@ -13,9 +13,10 @@ export class UserSearchComponent implements OnInit {
 
   constructor( private searchservice: GitsearchService) { }
 
-  search(){
+  searchuser(){
     this.searchservice.getusers(this.searchstring).then((data :JSON)=>{
       this.results=data['items'];
+      console.log(data)
     })
   }
   
